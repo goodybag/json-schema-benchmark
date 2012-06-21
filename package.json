@@ -1,0 +1,17 @@
+{
+  "author": "John Fawcett",
+  "name": "json-schema-benchmark",
+  "description": "Benchmarks various json schema validators",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+		"amanda": "0.4.2",
+		"benchmark": "1.0.0"
+	},
+  "devDependencies": {}
+}
