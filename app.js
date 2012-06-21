@@ -2,14 +2,14 @@ var
   // Dependencies
   amanda      = require('amanda')
 , Benchmark   = require('benchmark')
-, basicSchema = require('./schemas/basic')
-, basicData   = require('./data/basic')
-, advancedSchema = require('./schemas/advanced')
-, advancedData   = require('./data/advanced')
 
   // Vars
-, validator = amanda('json')
-, suite     = new Benchmark.Suite
+, validator       = amanda('json')
+, suite           = new Benchmark.Suite
+, basicSchema     = require('./schemas/basic')
+, basicData       = require('./data/basic')
+, advancedSchema  = require('./schemas/advanced')
+, advancedData    = require('./data/advanced')
 ;
 
 suite.add('Basic Validation', function(){
